@@ -1,0 +1,116 @@
+.dashboard-container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background: #f5f7fa;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* ====== SIDEBAR ====== */
+  .sidebar {
+    width: 240px;
+    background: #1e293b;
+    color: #fff;
+    padding: 20px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+  }
+  
+  .brand {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 12px;
+    margin: 8px 0;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s;
+  }
+  
+  .sidebar ul li:hover {
+    background: #334155;
+  }
+  
+  .logout-btn {
+    color: #ff6b6b !important;
+    font-weight: bold;
+  }
+  /* Toggle Row */
+.toggle-row {
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-weight: 500;
+}
+
+/* Switch Container */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+/* Hide default checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #cbd5e1;
+  transition: 0.3s;
+  border-radius: 24px;
+}
+
+/* Circle */
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  left: 3px;
+  bottom: 3px;
+  background-color: white;
+  transition: 0.3s;
+  border-radius: 50%;
+}
+
+/* Checked */
+.switch input:checked + .slider {
+  background-color: #22c55e;
+}
+
+.switch input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+/* Status text */
+.status-yes {
+  color: #16a34a;
+  font-weight: bold;
+}
+
+.status-no {
+  color: #dc2626;
+  font-weight: bold;
+}

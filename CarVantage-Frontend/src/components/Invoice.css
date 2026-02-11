@@ -1,0 +1,97 @@
+.paid {
+    color: #2e7d32;
+    font-weight: bold;
+  }
+  
+  .unpaid {
+    color: #c62828;
+    font-weight: bold;
+  }
+  
+  /* Buttons */
+  .view-btn,
+  .pay-btn,
+  .unpay-btn,
+  .print-btn,
+  .close-btn {
+    padding: 7px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .view-btn { background: #1976d2; }
+  .view-btn:hover { background: #0d47a1; }
+  
+  .pay-btn { background: #2e7d32; }
+  .pay-btn:hover { background: #1b5e20; }
+  
+  .unpay-btn { background: #ef6c00; }
+  .unpay-btn:hover { background: #e65100; }
+  
+  .print-btn { background: #512da8; margin-right: 10px; }
+  .print-btn:hover { background: #311b92; }
+  
+  .close-btn { background: #b71c1c; }
+  .close-btn:hover { background: #7f0000; }
+  
+  /* Modal Overlay */
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-box {
+    width: 380px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+  }
+  
+  .modal-box p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .save-btn {
+    background: #22c55e;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    border-radius: 6px;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-box {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  

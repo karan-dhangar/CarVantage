@@ -1,0 +1,71 @@
+.reg-container {
+    width: 380px;
+    margin: 60px auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.12);
+    font-family: "Poppins", sans-serif;
+  }
+  
+  /* Title */
+  .reg-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Label */
+  .reg-container label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 6px;
+    color: #444;
+  }
+  
+  /* Input fields */
+  .reg-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    font-size: 14px;
+    margin-bottom: 8px;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .reg-container input:focus {
+    border-color: #4a90e2;
+    outline: none;
+    box-shadow: 0 0 3px rgba(74, 144, 226, 0.4);
+  }
+  
+  /* Error text */
+  .error-text {
+    font-size: 13px;
+    color: red;
+    margin-bottom: 8px;
+  }
+  
+  /* Submit Button */
+  .reg-btn {
+    width: 100%;
+    padding: 10px;
+    background: #4a90e2;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-top: 12px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+  }
+  
+  .reg-btn:hover {
+    background: #3b78c2;
+  }
+  
+  /* Body background */
+  body {
+    background: #f2f5fa;
+  }
